@@ -1,15 +1,14 @@
 /* =========================
-   你需要填的設定
+   設定值已移至 config.js
+   
+   步驟：
+   1. 複製 config.example.js 為 config.js
+   2. 填入你的 CLIENT_ID 和 SPREADSHEET_ID
+   3. .gitignore 已設定忽略 config.js，
+      不會上傳到 GitHub
+   
+   CONFIG 變數由 config.js 提供
 ========================= */
-const CONFIG = {
-  CLIENT_ID: "",
-  SPREADSHEET_ID: "",
-
-  SHEET_RECORDS: "記帳紀錄",
-  SHEET_FIELDS: "欄位表",
-
-  SCOPES: "https://www.googleapis.com/auth/spreadsheets"
-};
 
 /* =========================
    全域狀態
